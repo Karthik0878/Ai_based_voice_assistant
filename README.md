@@ -38,57 +38,24 @@ AI_based_voice_assistant/
 │ └── nlp_module.py # NLP and response generation
 ├── requirements.txt # Dependencies
 └── README.md
+
 ## Installation
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/AI_based_voice_assistant.git
-cd AI_based_voice_assistant
-Create and activate a virtual environment:
+1. Clone the repository: `git clone https://github.com/your-username/AI_based_voice_assistant.git && cd AI_based_voice_assistant`
+2. Create and activate a virtual environment: `python -m venv venv && source venv/bin/activate` (Linux/macOS) or `venv\Scripts\activate` (Windows)
+3. Install dependencies: `pip install -r requirements.txt`
 
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate   # Linux/macOS
-venv\Scripts\activate      # Windows
-Install dependencies:
+## Usage
+Run the assistant: `python src/main.py` Speak clearly, and the assistant will respond in real-time.
 
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Run the assistant:
+## Contributing
+Contributions are welcome! Fork the repository, create a new branch (`git checkout -b feature-name`), commit your changes (`git commit -m "Add feature"`), push to the branch (`git push origin feature-name`), and open a pull request.
 
-bash
-Copy code
-python src/main.py
-Speak clearly, and the assistant will respond in real-time.
-
-Contributing
-Contributions are welcome!
-
-Fork the repository
-
-Create a new branch (git checkout -b feature-name)
-
-Commit your changes (git commit -m "Add feature")
-
-Push to the branch (git push origin feature-name)
-
-Open a pull request
-
-License
+## License
 This project is licensed under the MIT License.
 
-Acknowledgements
-TensorFlow
-
-PyTorch
-
-SpeechRecognition
-
-pyttsx3 / gTTS
-
-NLTK / spaCy
-
-yaml
-Copy code
+## Acknowledgements
+- [TensorFlow](https://www.tensorflow.org/)
+- [PyTorch](https://pytorch.org/)
+- [SpeechRecognition](https://pypi.org/project/SpeechRecognition/)
+- [pyttsx3](https://pypi.org/project/pyttsx3/) / [gTTS](https://pypi.org/project/gTTS/)
+- [NLTK](https://www.nltk.org/) / [spaCy](https://spacy.io/)
